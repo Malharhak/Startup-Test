@@ -1,14 +1,14 @@
 # Startup-Test
 The checklist of stuff that a startup should do
 
-#Project Management
+##Project Management
 
-* Do you have project managers whose top priority is maintaining high productivity for the others by cleaning, sorting and prioritizing tasks for them?
+* Do you have [Project Managers](#project-managers) whose top priority is maintaining high productivity for the others by cleaning, sorting and prioritizing tasks for them?
 * Do you have a bug database?
 * Do you let members of the team participate in planning and estimating the tasks?
-* Do you collect enough data and user feedback to know what is really important to work on?
+* Do you collect enough data and user feedback to know what is really important to work on, instead of relying on opinion?
 
-#Communication and general team coordination
+##Communication and general team coordination
 
 * Do you have a centralized communication platform?
 * Do you avoid meetings when possible?
@@ -18,12 +18,12 @@ The checklist of stuff that a startup should do
 * Do you encourage individuals to suggest new ideas and give feedback?
 
 
-#Programming
+##Programming
 
 * Do you use source control?
 * Does _all_ of your team actually know how to properly use source control?
 * Do you have a branching strategy for your team?
-* Do you perform mandatory code reviews before merging any change?
+* Do you perform mandatory code reviews before merging any change in production at some point?
 * Do you let enough time to your developers to properly perform code reviews?
 * Can you make a build in one step?
 * Do you have some form of continuous integration running?
@@ -33,3 +33,15 @@ The checklist of stuff that a startup should do
 * Do you have a coding convention?
 * Do you check that the coding convention is respected?
 * Do you have a documentation that summarises the project's architecture?
+
+#Detailed list
+
+##Project Managers
+
+Project Managers are important. We need them as a buffer between what the company wants to do, and what we actually do. The Project Manager should be the person that gathers all the feedback, ideas and wanted features, and prioritizes them. They also have the responsibility of knowing when to throw things away to keep the team productive and in time. A project manager _should not_ convert more work into more pressure for the team, they should work with the team to figure out the best they can do without causing a burn-out, or a drop in quality because of rushing too much.
+
+#Tools
+
+## Slack
+## Jira
+## Github
