@@ -36,3 +36,8 @@ The checklist of stuff that a startup should do
 
 #Detailed list
 
+(wip)
+
+#Resources
+
+(wip)
