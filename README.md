@@ -33,6 +33,7 @@ The checklist of stuff that a startup should do
 * Do you have a coding convention?
 * Do you check that the coding convention is respected?
 * Do you have a documentation that summarises the project's architecture?
+* Do you work with modular code, split in small, independant files?
 
 #Detailed list
 
