@@ -49,5 +49,3 @@ Project Managers are important. We need them as a buffer between what the compan
 
 ## Jira
 ## Github
-
-test
