@@ -3,7 +3,6 @@ The checklist of stuff that a startup should do
 
 ##Project Management
 
-* Do you have [Project Managers](#project-managers) whose top priority is maintaining high productivity for the others by cleaning, sorting and prioritizing tasks for them?
 * Do you have a bug database?
 * Do you let members of the team participate in planning and estimating the tasks?
 * Do you collect enough data and user feedback to know what is really important to work on, instead of relying on opinion?
@@ -44,5 +43,9 @@ Project Managers are important. We need them as a buffer between what the compan
 #Tools
 
 ## Slack
+
+[Slack](http://slack.com/) is an awesome communication platform. It centralizes everything and can connect to pretty much any API. A ton of companies have started using it and have been able to stop working with crowded mail inboxes, useless meetings and other problems.
+
+
 ## Jira
 ## Github
