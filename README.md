@@ -36,12 +36,3 @@ The checklist of stuff that a startup should do
 
 #Detailed list
 
-##Project Managers
-
-Project Managers are important. We need them as a buffer between what the company wants to do, and what we actually do. The Project Manager should be the person that gathers all the feedback, ideas and wanted features, and prioritizes them. They also have the responsibility of knowing when to throw things away to keep the team productive and in time. A project manager _should not_ convert more work into more pressure for the team, they should work with the team to figure out the best they can do without causing a burn-out, or a drop in quality because of rushing too much.
-
-#Tools
-
-## Slack
-## Jira
-## Github
