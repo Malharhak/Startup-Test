@@ -40,7 +40,6 @@ It is a **work in progress**, many things are yet to be written. Feel free to fo
 
 #Detailed list
 
-<<<<<<< HEAD
 (wip)
 
 
@@ -78,3 +77,5 @@ There are many ways to do that and in the end it depends on how you work and how
 ## Github
 
 #Resources
+
+(wip)
