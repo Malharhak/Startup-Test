@@ -23,7 +23,7 @@ It is a **work in progress**, many things are yet to be written. Feel free to fo
 ##Programming
 
 * Do you use [vource control](#vource-control)?
-* Does _all_ of your team actually know how to [properly use source control](#properly-using-version-control?
+* Does _all_ of your team actually know how to [properly use source control](#properly-using-version-control?)
 * Do you have a [branching strategy](#branching-strategy) for your team?
 * Do you perform mandatory code reviews before merging any change in production at some point?
 * Do you let enough time to your developers to properly perform code reviews?
