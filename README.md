@@ -22,7 +22,7 @@ It is a **work in progress**, many things are yet to be written. Feel free to fo
 
 ##Programming
 
-* Do you use [vource control](#vource-control)?
+* Do you use [version control](#vource-control)?
 * Does _all_ of your team actually know how to [properly use source control](#properly-using-version-control?)
 * Do you have a [branching strategy](#branching-strategy) for your team?
 * Do you perform mandatory code reviews before merging any change in production at some point?
@@ -69,12 +69,31 @@ There are many ways to do that and in the end it depends on how you work and how
 
 #Tools
 
-## Slack
+## Communication
+
+### Slack
 
 [Slack](http://slack.com/) is an awesome communication platform. It centralizes everything and can connect to pretty much any API. A ton of companies have started using it and have been able to stop working with crowded mail inboxes, useless meetings and other problems.
 
-## Jira
-## Github
+## Project Management
+
+### Jira
+
+[Jira](https://www.atlassian.com/software/jira/)
+
+## Source Control
+
+### Github
+
+[Github](http://github.com)
+
+### Bitbucket
+
+[Bitbucket](http://bitbucket.com)
+
+## Others
+
+
 
 #Resources
 
