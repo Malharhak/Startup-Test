@@ -25,7 +25,7 @@ It is a **work in progress**, many things are yet to be written. Feel free to fo
 * Do you use [version control](#vource-control)?
 * Does _all_ of your team actually know how to [properly use source control](#properly-using-version-control?)
 * Do you have a [branching strategy](#branching-strategy) for your team?
-* Do you perform mandatory code reviews before merging any change in production at some point?
+* Do you perform mandatory [code reviews](#code-reviews) before merging any change in production at some point?
 * Do you let enough time to your developers to properly perform code reviews?
 * Do you have a bug database?
 * Can you make a build in one step?
@@ -66,6 +66,15 @@ There are many ways to do that and in the end it depends on how you work and how
 * When and where they are merged/deleted
 * Which branches are sensible, permanent branch (like the branch you will use for beta builds, production builds...)
 
+##Code Reviews
+
+Contrary to popular belief, code review need not be hard. And they are [incredibly useful](https://www.atlassian.com/agile/code-reviews). Just by having someone give a look at a commit before puttin it in production, you can avoid horrible bugs later.
+
+There again, there are multiple strategies. But the simplest, which is the model followed by open source development on websites like Github, is code review on Pull Request.
+
+Basically the idea is, when someone wants to merge their changes from a development branch to the production/staging/whatever branch, they open a Pull Request. You then have at least one developer, ideally multiple, read through the code to see if everything is OK before validating the change.
+
+The benefits are multiple: Social pressure makes people write better code, risky code that create bugs can be detected sooner, and people in the project understand more about the code that other persons wrote, which is better for maintenance.
 
 #Tools
 
