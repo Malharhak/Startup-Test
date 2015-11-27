@@ -141,6 +141,10 @@ The benefits are multiple: Social pressure makes people write better code, risky
 
 [Jira](https://www.atlassian.com/software/jira/)
 
+### Trello
+
+[Trello] (https://trello.com/)
+
 ## Source Control
 
 ### Github
@@ -150,6 +154,10 @@ The benefits are multiple: Social pressure makes people write better code, risky
 ### Bitbucket
 
 [Bitbucket](http://bitbucket.com)
+
+### GitLab
+
+[GitLab] (https://about.gitlab.com/)
 
 ## Others
 
