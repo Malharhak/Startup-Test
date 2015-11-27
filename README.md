@@ -141,6 +141,10 @@ The benefits are multiple: Social pressure makes people write better code, risky
 
 [Jira](https://www.atlassian.com/software/jira/)
 
+### Trello
+
+[Trello](https://trello.com/) is a web-based project management application also available on smartphones. You can visualize your tasks and share them with others people in your team. You can use it as a todo list. This tool is inspired by the [Kanban process](https://www.atlassian.com/agile/kanban/)
+
 ## Source Control
 
 ### Github
@@ -150,6 +154,10 @@ The benefits are multiple: Social pressure makes people write better code, risky
 ### Bitbucket
 
 [Bitbucket](http://bitbucket.com)
+
+### GitLab
+
+[GitLab](https://about.gitlab.com/) is a an open source tool that allows you to use git on your own servers. It gives you a total control on your data.
 
 ## Others
 
