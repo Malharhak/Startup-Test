@@ -7,7 +7,11 @@ This document being open source, it is intended to be refined as much as possibl
 
 You can see it as a test, checklist or general wishlist.
 
+Also note that this list is neither exhaustive nor binary. You can use only some of these and be fine, as you can use most of these and be fine too. Organisations come in all shape and size not all of these necessarily work for you, which is ok. I'd say try what sounds good, and keep what works. But do try. Seriously.
+
 It is a **work in progress**, many things are yet to be written, but this first draft is accessible for feedback and improvement. Feel free to fork, add things and make a Pull Request if you want to help. You can also open issues here on Github for discussion, questions, or suggestions.
+
+Everything marked as TODO or wip is basically a draft that has not yet been properly written/sourced.
 
 ##Project Management
 
@@ -31,18 +35,17 @@ It is a **work in progress**, many things are yet to be written, but this first 
 * Does _all_ of your team actually know how to [properly use source control](#properly-using-version-control?)
 * Do you have a [branching strategy](#branching-strategy) for your team?
 * Do you perform mandatory [code reviews](#code-reviews) before merging any change in production at some point?
-* Do you let enough time to your developers to properly perform code reviews?
-* Do you have a bug database?
-* Can you make a build in one step?
-* Do you have some form of continuous integration running?
-* Do you have automated tests running after each build?
-* Do you write new automated tests before writing new code or fixing a bug?
-* Do you fix all known bugs before working on new features?
-* Do you take the time to update old code to current standards when you need to modify it?
-* Do you have a coding convention?
-* Do you check that the coding convention is respected?
-* Do you have a documentation that summarises the project's architecture?
-* Do you work with modular code, split in small, independant files?
+* Do you have a [bug database](#bug-database)?
+* Can you make a [build in one step](#build-process)?
+* Do you have some form of [continuous integration](#continuous-integration) running?
+* Do you have [automated tests](#automated-tests) running after each build?
+* Do you write [new automated tests](#writing-new-automated-tests) before writing new code or fixing a bug?
+* Do you [fix all known bugs](#fixing-bugs-first) before working on new features?
+* Do you take the time to [update old code](#update-old-code) to current standards when you need to modify it?
+* Do you have a [coding convention](#coding-convention)?
+* Do you check that the coding convention [is respected](#respecting-coding-convention)?
+* Do you have a [documentation](#documentation) that summarises the project's architecture?
+* Do you work with [modular code](#modular-code), split in small, independant files?
 
 #Detailed list
 
@@ -123,6 +126,51 @@ There again, there are multiple strategies. But the simplest, which is the model
 Basically the idea is, when someone wants to merge their changes from a development branch to the production/staging/whatever branch, they open a Pull Request. You then have at least one developer, ideally multiple, read through the code to see if everything is OK before validating the change.
 
 The benefits are multiple: Social pressure makes people write better code, risky code that create bugs can be detected sooner, and people in the project understand more about the code that other persons wrote, which is better for maintenance.
+
+##Bug Database
+
+> TODO: Keep a bug list, sort bugs by priority, keep track of crash and crash logs, etc.
+
+##Build Process
+
+> TODO: Have a simple, one-step build process, as fast as you can make it. If a build is boring/long to make, the developers will avoid it. Less builds mean less test, which means less chances to find bugs before they're deep in the code
+
+##Continuous Integration
+
+> TODO: Continuous Integration — Have a server make automated builds each time a new change in the code is merged. Do it at least in an internal staging version for the company, but if possible do that with production too. See tools like [Jenkins](https://jenkins-ci.org/)
+
+##Automated Tests
+
+> TODO: Write automated unit tests for all your code. Have these tests run ideally each time you launch the app, and at least each time you build it. The more tests you have, the more chances you have to be warned by them if some code you wrote broke your product. Functional tests are also good (automated bots running a pre-recorded scenario of actions in your app, and looking for crashes). See [Unit Testing](https://en.wikipedia.org/wiki/Unit_testing), [Functional Testing](https://en.wikipedia.org/wiki/Functional_testing) or [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
+
+##Writing New Automated Tests
+
+> TODO: Write new automated tests as you go. Even if you didn't write any when you started on the project, don't take it as an excuse for never writing any. Start writing some for every new piece of code you add. Also, when you fix a bug, write an automated test for that bug, so that it will fail until the bug is resolved.
+
+##Fix All Known Bugs
+
+> TODO: Basically fix known bugs first, write new features later. Not the opposite.
+
+##Update Old Code
+
+> TODO: Most teams struggle with old, horrible code. We don't know what to do with them, and we don't have the time to refactor it. Well here's that simple trick to deal with it: don't try to refactor it in one go. Just update the parts you can when you need to touch it. Even if it's one or two functions, after some time this old code will suddenly be a lot easier to deal with, all without having to take an entire week of refactoring. It's also a good idea to include this continuous refactoring time when you estimate tasks.
+
+##Coding Convention
+
+> TODO: A coding convention is a document that lists every rule of coding style in an organisation. They can include indentation (Tabs? Spaces? How much spaces?), variable/function/class naming, and tons of other things.
+
+##Respecting Coding Convention
+
+> TODO: Don't just send a coding convention to people when they arrive; actually check that it is respected. This can be done in the code reviews, but an easier (although not always possible) way to do that is to setup git hooks that verify the style of the code, and will reject commits that don't pass the tests. Also note that there are standard coding styles widely accepted for most languages, and tools for checking them (ex: [jslint](http://www.jslint.com/) in Javascript).
+
+##Documentation
+
+> TODO: Documentation need not (and should not) be a big 300 pages technical design document listing all classes and their interactions. Big documentation is actually often an excuse for overly complicated code ( "but you can just read the doc" ). You do often need some form of documentation though, if only for outlining the general architecture of your project so that new members can grasp an idea of what is what and where.
+
+##Modular Code
+
+> TODO: Try to organize your code in small independant modules, and make your project use those modules. Avoid as much as possible having big files, or so-called "managers" that are so deeply rooted in all of your code that any trivial modification anywhere is at the risk of breaking everything, everywhere.
+
 
 #Tools
 
