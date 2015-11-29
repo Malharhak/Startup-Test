@@ -214,3 +214,10 @@ The benefits are multiple: Social pressure makes people write better code, risky
 #Resources
 
 > TODO: This is a list of links to resources related to this guide (not tools, see previous chapter). Feel free to link any relevant article, tutorial, presentation, documentation...
+
+## Source Control
+
+* [Try Git](https://try.github.io/levels/1/challenges/1) The most fast and easiest way to try Git online, by Github.
+* [Think Like A Git](http://think-like-a-git.net/) A website for learning more about the theory behind Git and understanding how it work, and how to better use it.
+
+
