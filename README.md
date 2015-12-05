@@ -96,11 +96,11 @@ A code of conduct may seem pointless, but it's actually important very soon, onc
 
 ###Diversity
 
-> TODO (Hiring diverse people to having a "boy's club" making all the decisions, and to avoid some people feeling left out. Diversity brings new ideas and creativity)
+> TODO (Hiring diverse people to avoid having a "boy's club" making all the decisions at the top, which often lets a lot people feeling left out, discouraging them in many ways. Diversity brings new ideas and creativity)
 
 ###Sane Working Conditions
 
-> TODO (Check that the workplace is safe for people, both physically and psychologically. Check that people can work without being disturbed too much)
+Check that the workplace is safe for people, both physically and psychologically. Check that people can work productively without being disturbed or harassed, and check that you have good desk setups that won't break people's back if you can afford it. See this great article on [Computer Workstation Ergonomics](http://blog.codinghorror.com/computer-workstation-ergonomics/) by Jeff Atwood
 
 ###Improve Culture
 
@@ -255,6 +255,10 @@ The benefits are multiple: Social pressure makes people write better code, risky
 
 > TODO: This is a list of links to resources related to this guide (not tools, see previous chapter). Feel free to link any relevant article, tutorial, presentation, documentation...
 
+## Workplace
+
+* [How I created a better workplace](http://www.tintup.com/blog/how-our-tech-startup-created-a-better-workplace-feedback-system/) by Tim Sae Koo, about the feedback process they used to keep their workplace sane for employees.
+* [Computer Workstation Ergonomics](http://blog.codinghorror.com/computer-workstation-ergonomics/) by Jeff Atwood, describing the correct way you should setup your workstation to avoid health problems. Anyone working behind a desk should read that.
 
 ## Source Control
 
