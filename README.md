@@ -112,7 +112,7 @@ A code of conduct may seem pointless, but it's actually important very soon, onc
 
 > TODO (Centralized communication platform that avoid spreading on multiple tools. ie. Slack)
 
-##Avoiding Meetings
+###Avoiding Meetings
 
 > TODO (Avoiding useless meetings all the time, always stopping the productivity of people. Learning to have meetings only when necessary)
 
@@ -120,7 +120,7 @@ A code of conduct may seem pointless, but it's actually important very soon, onc
 
 > TODO (Keeping trace of important things/data. Taking note of things said during meetings, and having most discussions directly on the public communication platform so they don't need to be transcribed later, allowing new team members do read through the collective knowledge of the team)
 
-##Information Channels
+###Information Channels
 
 > TODO (Making information available to everyone who may be concerned, letting people know where they can find information. Allowing/encouraging people to communicate, ask questions if needed etc. Clarity above all)
 
@@ -128,7 +128,7 @@ A code of conduct may seem pointless, but it's actually important very soon, onc
 
 > TODO (Regularly look back on the recent work and discuss as a team what worked and what didn't. Adapt your different processes according to that)
 
-##Team Feedback
+###Team Feedback
 
 > TODO (Let the team frequently give general feedback on any matter, either related to product, or general office life. This should be done regularly, as a standard practice. It might be good to allow anonymized feedback for people that might have sensitive issues).
 
@@ -146,7 +146,7 @@ Long story short: If you only use git to commit/pull/push, you're missing a ton 
 
 If you want to really understand git and be the person that saves the team with their understanding of git, you should definitely look at [this website](http://think-like-a-git.net/).
 
-##Branching Strategy
+###Branching Strategy
 
 Using branches is a good thing, but you should have a clear process for working with branches. People creating branches when they work on something is fine, but it's way better if you have a standardized way of managing those branches.
 
@@ -157,7 +157,7 @@ There are many ways to do that and in the end it depends on how you work and how
 * When and where they are merged/deleted
 * Which branches are sensible, permanent branch (like the branch you will use for beta builds, production builds...)
 
-##Code Reviews
+###Code Reviews
 
 Contrary to popular belief, code review need not be hard. And they are [incredibly useful](https://www.atlassian.com/agile/code-reviews). Just by having someone give a look at a commit before puttin it in production, you can avoid horrible bugs later.
 
@@ -167,47 +167,47 @@ Basically the idea is, when someone wants to merge their changes from a developm
 
 The benefits are multiple: Social pressure makes people write better code, risky code that create bugs can be detected sooner, and people in the project understand more about the code that other persons wrote, which is better for maintenance.
 
-##Bug Database
+###Bug Database
 
 > TODO: Keep a bug list, sort bugs by priority, keep track of crash and crash logs, etc.
 
-##Build Process
+###Build Process
 
 > TODO: Have a simple, one-step build process, as fast as you can make it. If a build is boring/long to make, the developers will avoid it. Less builds mean less test, which means less chances to find bugs before they're deep in the code
 
-##Continuous Integration
+###Continuous Integration
 
 > TODO: Continuous Integration — Have a server make automated builds each time a new change in the code is merged. Do it at least in an internal staging version for the company, but if possible do that with production too. See tools like [Jenkins](https://jenkins-ci.org/)
 
-##Automated Tests
+###Automated Tests
 
 > TODO: Write automated unit tests for all your code. Have these tests run ideally each time you launch the app, and at least each time you build it. The more tests you have, the more chances you have to be warned by them if some code you wrote broke your product. Functional tests are also good (automated bots running a pre-recorded scenario of actions in your app, and looking for crashes). See [Unit Testing](https://en.wikipedia.org/wiki/Unit_testing), [Functional Testing](https://en.wikipedia.org/wiki/Functional_testing) or [Test Driven Development](https://en.wikipedia.org/wiki/Test-driven_development)
 
-##Writing New Automated Tests
+###Writing New Automated Tests
 
 > TODO: Write new automated tests as you go. Even if you didn't write any when you started on the project, don't take it as an excuse for never writing any. Start writing some for every new piece of code you add. Also, when you fix a bug, write an automated test for that bug, so that it will fail until the bug is resolved.
 
-##Fix All Known Bugs
+###Fix All Known Bugs
 
 > TODO: Basically fix known bugs first, write new features later. Not the opposite.
 
-##Update Old Code
+###Update Old Code
 
 > TODO: Most teams struggle with old, horrible code. We don't know what to do with them, and we don't have the time to refactor it. Well here's that simple trick to deal with it: don't try to refactor it in one go. Just update the parts you can when you need to touch it. Even if it's one or two functions, after some time this old code will suddenly be a lot easier to deal with, all without having to take an entire week of refactoring. It's also a good idea to include this continuous refactoring time when you estimate tasks.
 
-##Coding Convention
+###Coding Convention
 
 > TODO: A coding convention is a document that lists every rule of coding style in an organisation. They can include indentation (Tabs? Spaces? How much spaces?), variable/function/class naming, and tons of other things.
 
-##Respecting Coding Convention
+###Respecting Coding Convention
 
 > TODO: Don't just send a coding convention to people when they arrive; actually check that it is respected. This can be done in the code reviews, but an easier (although not always possible) way to do that is to setup git hooks that verify the style of the code, and will reject commits that don't pass the tests. Also note that there are standard coding styles widely accepted for most languages, and tools for checking them (ex: [jslint](http://www.jslint.com/) in Javascript).
 
-##Documentation
+###Documentation
 
 > TODO: Documentation need not (and should not) be a big 300 pages technical design document listing all classes and their interactions. Big documentation is actually often an excuse for overly complicated code ( "but you can just read the doc" ). You do often need some form of documentation though, if only for outlining the general architecture of your project so that new members can grasp an idea of what is what and where.
 
-##Modular Code
+###Modular Code
 
 > TODO: Try to organize your code in small independant modules, and make your project use those modules. Avoid as much as possible having big files, or so-called "managers" that are so deeply rooted in all of your code that any trivial modification anywhere is at the risk of breaking everything, everywhere.
 
