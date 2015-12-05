@@ -1,5 +1,5 @@
 # Startup-Test
-This checklist of important things that tech organisations should be doing in the fields of communication, project management, and programming.
+This checklist of important things that tech organisations should be doing in the fields of communication, project management, and programming. I aim to apply this list to other professions in technology, so if people have knowledge of good guidelines for other areas (marketing, art, legal, etc), please don't hesitate to add them.
 
 It is inspired by the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html). It's just a way bigger list that is intended to become a definitive, open and collaborative list of good practices, widely accepted by tech companies. This collection of questions are inspired mostly by Agile development and the actual, practical experience that comes with it. There are other ways of successfully developping software, but this way is used widely enough to be considered and industry standard.
 
@@ -13,13 +13,28 @@ It is a **work in progress**, many things are yet to be written, but this first 
 
 Everything marked as TODO or wip is basically a draft that has not yet been properly written/sourced.
 
+
 ##Project Management
+
+Anything related to how we list, manage and treat tasks goes there.
 
 * Do you break down feature requests in [small chunks of isolated tasks](#breaking-down-tasks) that each require a small amount of time?
 * Do you let members of the team participate in [estimating the tasks](#estimating-tasks) duration?
 * Do you set your planning for short sessions (few days/weeks) and then refine it at the end of each session?
 
+##Workplace Culture
+
+I just added this section. It may be opinion-based, but I'm trying to pick guidelines that I think would be good everywhere. These are inspired by this [article on programmer culture](http://gamasutra.com/blogs/RichGeldreich/20151203/260874/Opinion_Video_Game_Programmer_Culture_Must_Change.php)
+
+* Do you have a [code of conduct](#code-of-conduct)?
+* Do you actively work to hire [diverse people](#diversity)?
+* Do you actively try to mitigate pressure and keep [sane working conditions](#sane-working-conditions) for employees?
+# Do you encourage a continuous discussion with and between employees to [improve the company's culture](#improve-culture)?
+
+
 ##Communication and general team coordination
+
+This list concerns everything regarding the flow of information between members of a team, general company communication, and how to keep all that productive.
 
 * Do you have a centralized [communication platform](#communication-platform)?
 * Do you [avoid meetings](#avoiding-meetings) when possible?
@@ -30,6 +45,8 @@ Everything marked as TODO or wip is basically a draft that has not yet been prop
 
 
 ##Programming
+
+This list is programming specific. Mainly good practices that have been proven to improve the productivity of programming teams and reduce bugs/other kinds of problems.
 
 * Do you use [version control](#vource-control)?
 * Does _all_ of your team actually know how to [properly use source control](#properly-using-version-control?)
@@ -51,8 +68,9 @@ Everything marked as TODO or wip is basically a draft that has not yet been prop
 
 (wip)
 
+##Project Management
 
-## Estimating Tasks
+### Estimating Tasks
 
 It is very important that when working with a team, the persons estimating the duration for a task are actually the ones that will work on it. Even if the manager knows the work of the people, they might not necessarily know all the details and other things the tasks depends on. So it's way safer to have the people actually working on the project deciding how much time they need. Multiple advices are always good.
 
@@ -60,7 +78,7 @@ So the idea is to take everyone concerned by a task on the team and let them dis
 
 It's also important to note that on the engineering side, people tend to underestimate the duration of a task, and it is a good idea to multiply the estimated time for some error margin. Better overestimate a task and be faster than expected, than delivering late.
 
-## Breaking Down Tasks
+### Breaking Down Tasks
 
 The "standard" allowable times for tasks are: 1, 2, 4 and 8 hour. If you estimate a task, it must be one of these times. If you estimate, say, 3 hours, then pick 4, don't try to fit it in two hours.
 
@@ -70,7 +88,27 @@ If any task is more than 8 hours, then it's too big a task and should be broken 
 
 Less is more. With restrictive but simple rules on the way you plan, you can make sure that the rules are actually followed properly.
 
-##Communication Platform
+##Workplace
+
+###Code of conduct
+
+A code of conduct may seem pointless, but it's actually important very soon, once a company starts to grow. Toxic people can be found everywhere, and most of the time they're not even aware that they are. A strict, enforced code of conduct can avoid people being hurt by others. We're all humans, and there are things you can't just say to people. Here is an example of a [code of conduct](http://lists.llvm.org/pipermail/llvm-dev/2015-October/091218.html).
+
+###Diversity
+
+> TODO (Hiring diverse people to having a "boy's club" making all the decisions, and to avoid some people feeling left out. Diversity brings new ideas and creativity)
+
+###Sane Working Conditions
+
+> TODO (Check that the workplace is safe for people, both physically and psychologically. Check that people can work without being disturbed too much)
+
+###Improve Culture
+
+> TODO (Communicate with the team to get their feedback/ideas on how to get better in all of this)
+
+##Communication
+
+###Communication Platform
 
 > TODO (Centralized communication platform that avoid spreading on multiple tools. ie. Slack)
 
@@ -78,7 +116,7 @@ Less is more. With restrictive but simple rules on the way you plan, you can mak
 
 > TODO (Avoiding useless meetings all the time, always stopping the productivity of people. Learning to have meetings only when necessary)
 
-##Storing Information
+###Storing Information
 
 > TODO (Keeping trace of important things/data. Taking note of things said during meetings, and having most discussions directly on the public communication platform so they don't need to be transcribed later, allowing new team members do read through the collective knowledge of the team)
 
@@ -86,7 +124,7 @@ Less is more. With restrictive but simple rules on the way you plan, you can mak
 
 > TODO (Making information available to everyone who may be concerned, letting people know where they can find information. Allowing/encouraging people to communicate, ask questions if needed etc. Clarity above all)
 
-##Discussing success and failures
+###Discussing success and failures
 
 > TODO (Regularly look back on the recent work and discuss as a team what worked and what didn't. Adapt your different processes according to that)
 
@@ -94,11 +132,13 @@ Less is more. With restrictive but simple rules on the way you plan, you can mak
 
 > TODO (Let the team frequently give general feedback on any matter, either related to product, or general office life. This should be done regularly, as a standard practice. It might be good to allow anonymized feedback for people that might have sensitive issues).
 
-##Version Control
+##Programming
+
+###Version Control
 
 If you're here, you probably know what [source control](http://www.git-tower.com/learn/git/ebook/mac/basics/what-is-version-control#start) is. It is the absolute minimum standard for any project involving code. Even if there is only one programmer working alone, source control is required. This one is non-negotiable. Here's [why](http://www.git-tower.com/learn/git/ebook/mac/basics/why-use-version-control), and here's [how to get started](http://www.git-tower.com/learn/git/ebook)
 
-##Properly using version control
+###Properly using version control
 
 Even though most companies use source control, very few of them use them properly. Thing is, for some reasons developers are rarely properly trained for it, and people assume that it should just work out of the box. Especially with the existing graphical interfaces for Git that hide the command-line part for you.
 
@@ -214,6 +254,7 @@ The benefits are multiple: Social pressure makes people write better code, risky
 #Resources
 
 > TODO: This is a list of links to resources related to this guide (not tools, see previous chapter). Feel free to link any relevant article, tutorial, presentation, documentation...
+
 
 ## Source Control
 
