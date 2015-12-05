@@ -1,6 +1,19 @@
 # Startup-Test
 This checklist of important things that tech organisations should be doing in the fields of communication, project management, and programming. I aim to apply this list to other professions in technology, so if people have knowledge of good guidelines for other areas (marketing, art, legal, etc), please don't hesitate to add them.
 
+It is presented as a list of questions, followed by a bigger list of small paragraphs explaining the details for each question. For a quick view of everything, jump to the [questions](#questions-list).
+
+#List of things
+
+Click on links to jump to a section you're interested in.
+
+* [Introduction](#introduction)
+* [Questions List](#questions-list)
+* [Detailed List](#detailed-list)
+* [Tools](#tools) (Apps, websites and other tools related to this guide)
+* [Resources](#resources) (Articles, guides, essays, presentations and anything to get more informations on things listed here)
+
+# Introduction
 It is inspired by the [Joel Test](http://www.joelonsoftware.com/articles/fog0000000043.html). It's just a way bigger list that is intended to become a definitive, open and collaborative list of good practices, widely accepted by tech companies. This collection of questions are inspired mostly by Agile development and the actual, practical experience that comes with it. There are other ways of successfully developping software, but this way is used widely enough to be considered and industry standard.
 
 This document being open source, it is intended to be refined as much as possible by people's ideas, and new practices that may be discovered, in order to serve as a reliable resource for any tech organisation.
@@ -13,6 +26,7 @@ It is a **work in progress**, many things are yet to be written, but this first 
 
 Everything marked as TODO or wip is basically a draft that has not yet been properly written/sourced.
 
+#Questions List
 
 ##Project Management
 
