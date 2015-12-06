@@ -136,7 +136,7 @@ Check that the workplace is safe for people, both physically and psychologically
 
 ###Information Channels
 
-> TODO (Making information available to everyone who may be concerned, letting people know where they can find information. Allowing/encouraging people to communicate, ask questions if needed etc. Clarity above all)
+IRC, Slack, Reddit. Possibilities are really endless. One thing's sure: the quality of the product is correlated to the quality of communication in the team. People should know what is going on. Making feedback on the product easily accessible, knowledge of the market available for all to see, there are many reasons that will compel you to use some sort of channel of communication by all the staff. 
 
 ###Discussing success and failures
 
@@ -144,7 +144,9 @@ Check that the workplace is safe for people, both physically and psychologically
 
 ###Team Feedback
 
-> TODO (Let the team frequently give general feedback on any matter, either related to product, or general office life. This should be done regularly, as a standard practice. It might be good to allow anonymized feedback for people that might have sensitive issues).
+It's a good thing to have regular meetings between staff & management to be able to detect issues, get and give feedback about one's work. Sometimes, people can be affected by personnal issues that will affect their time in the workplace or the quality of their work, and the company needs to be aware of it for roadmap purposes. 
+
+Getting and giving feedback from staff can be a way to detect early-on toxic issues that will affect everyone, and by association, the product.
 
 ##Programming
 
