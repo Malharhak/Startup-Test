@@ -230,8 +230,29 @@ The benefits are multiple: Social pressure makes people write better code, risky
 
 #Tools
 
-> TODO: This section is a list of tools related to this guide. Feel free to add some to the list.
+##Code Quality
 
+### Linters
+
+> TODO: Describe ESLint uses
+
+### Codacy/Code Climate
+
+Allowing you to establish strong analytics of your codebase (dryness/complexity/style), they'll be your best ally for measuring test coverage and quality code, with a grading system. Very easy to set-up and with nice offers for start-ups. If you're writting test for your code, they're a must-have in your fight against technical debt.
+
+##Continuous Integration
+
+### Jenkins
+
+> TODO: Describe Jenkins
+
+### TravisCI
+
+> TODO: Describe Travis
+
+### Codeship
+
+> TODO: Describe Codeship
 
 ## Communication
 
